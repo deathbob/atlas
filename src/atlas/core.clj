@@ -4,8 +4,10 @@
             [clojurewerkz.titanium.vertices :as tv]
             [clojurewerkz.titanium.types    :as tt]
             [clojurewerkz.titanium.query    :as tq]
-            [ogre.core :as oq])
-  )
+            [ogre.core :as oq]
+            ;; [clojurewerkz.ogre.io :as io]
+            ;; [ogre.io :as io]
+  ))
 
 (defn- main
   [& args]
